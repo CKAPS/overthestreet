@@ -1,0 +1,489 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800|Roboto+Slab:400,100,300,700);
+
+
+/**  Basic Page CSS **/
+
+html {
+  -webkit-tap-highlight-color: white;
+}
+body{
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  font-size: 1.7em;
+  position: relative;
+  width: 100%;
+  
+  
+ 
+}
+
+ body a{
+  text-decoration: none;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "PT Sans", sans-serif;
+  
+  margin: 0;
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+
+/**  Page **/
+.page {
+  padding: 34px 0;
+}
+
+.page h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+
+/**  Header Navigation **/
+
+
+header .navbar {
+  padding: 20px 10px;
+  
+   
+}
+
+header .navbar-default {
+   background-color: rgba(255,255,255,.99);
+  border: none;
+  padding-bottom: 10px;
+  
+}
+
+header .navbar-default .navbar-nav a {
+  color: #555;
+  padding: 5px 8px;
+  
+}
+
+header .navbar-default .navbar-nav a:hover {
+  color: #555;
+}
+
+header .navbar-default .navbar-nav .active a {
+  font-weight: 700;
+  color: black;
+  border-bottom: 4px solid rgb(58,176,226) ;
+  
+}
+
+
+
+
+ .navbar-default .navbar-nav > .active > a, 
+ .navbar-default .navbar-nav > .active > a:hover, 
+ .navbar-default .navbar-nav > .active > a:focus,
+ .navbar-default .navbar-nav > .active > a:visited {
+     
+      background: transparent;
+ }
+
+
+/**  Navbar Toggle **/
+header .navbar-toggle {
+  background-color: rgb(58,176,226);
+  
+}
+
+header .navbar-default .navbar-toggle .icon-bar {
+  background-color: white;
+}
+
+@media only screen
+and (max-width: 768px) {
+  header .navbar-collapse.in {
+    background-color: rgba(121,204,205,.5);
+    color: white;
+    
+  }
+}
+
+
+/**  nav inbody **/
+
+header .inbody {
+  
+background-color: rgba(64,64,64,.2);
+}
+
+header .navbar.inbody {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  
+}
+
+header .navbar.inbody .navbar-nav {
+  padding-top: 10px;
+  
+}
+
+
+/**  Carousel Fade **/
+
+.carousel.fade {
+  opacity: 1;
+}
+
+.carousel.fade .item {
+  
+  left: 0;
+  opacity: 0;
+  top: 0;
+  position: absolute;
+  width: 100%;
+  display: block;
+   
+}
+
+.carousel.fade .item:first-child {
+  top: auto;
+  opacity: 0;
+  position: relative;
+}
+
+.carousel.fade .item.active {
+  opacity: 1;
+}
+
+.carousel-control {
+  opacity: 0;
+}
+
+.carousel-control.right,
+.carousel-control.left {
+  background-image: none;
+}
+
+#featured .item {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 100%;
+  height: 650px;
+}
+
+
+.homepage-hero-module {
+    border-right: none;
+    border-left: none;
+    position: relative;
+}
+
+.hero_section {
+    position: relative;
+    margin-top: -250px;
+  
+}
+.top_cont_outer{
+    height: 870px;
+}
+
+
+.top_left_cont h2 {
+   
+    color: #FFF;
+    
+    font-size: 30px;
+    
+
+   
+}
+
+
+.top_left_cont p {
+    font-size: 22px;
+    color: #fff;
+    margin: 0 0 30px 0;
+	
+   
+  
+}
+
+
+
+
+
+.imgWrap {
+  position: relative;
+ 
+}
+
+.imgDescription {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(29, 106, 154, 0.72);
+  color: #fff;
+
+
+  visibility: hidden;
+  opacity: 0;
+
+  
+  webkit-transition: visibility opacity 0.2s;
+  
+}
+
+
+.imgWrap:hover .imgDescription {
+  visibility: visible;
+  opacity: 1;
+}
+   
+/**  Page -- howitworks **/
+
+.service {
+  margin: 20px 10px;
+  text-align: center;
+}
+
+#howitworks img.icon {
+  display: block;
+  width: 150px;
+  margin: 0 auto;
+  margin-bottom: 5px;
+}
+
+#services h3 {
+  margin-bottom: 10px;
+}
+
+@media only screen 
+and (min-width: 450px)
+and (max-width: 768px) {
+  .service p {
+    padding: 0 20%;
+  }
+}
+
+
+
+/**  Page -- customers**/
+
+.service {
+  margin: 20px 0;
+  text-align: center;
+}
+
+
+
+
+
+@media only screen 
+and (min-width: 450px)
+and (max-width: 768px) {
+  .service p {
+    padding: 0 20%;
+  }
+}
+
+
+ .work a:hover {
+  color: #D35400;
+  font-size: 25px;
+}
+
+
+
+
+#testimonials article.service {
+   background-image: url("../images/old_map.png")
+}
+
+
+
+#howitworks #work1 a:hover {
+  color: rgb(233,102,86);
+  font-size: 25px;
+}
+
+
+/**  Page -- contact**/
+#contact{
+    background-color: rgb(69,69,69);
+    background: -webkit-linear-gradient(bottom,rgba(25,25,25,.4),rgba(25,25,25,1));
+    
+}
+
+ #btn1 {
+    font-size: 18px;
+    text-decoration: none;
+    color: #fff;
+    background-color:#3289C7;
+    border: 1px solid transparent;
+    padding: 15px 10px;
+    border-radius: 5px;
+     width: 300px;
+     height: 60px;
+     
+}
+#btn1:hover {
+  transform: scale(1.2);
+}
+
+.btn1:hover {
+  transform: scale(1.2);
+}
+
+@media (max-width: 768px) {
+   h3 {
+   margin-top: -80px;
+  }
+    
+
+
+    @media (max-width: 768px) and (orientation:landscape) {
+  .top_left_cont h2 {
+   padding-top: 400px;
+  }
+}
+@media (max-width: 768px) {
+  .main #cutomers {
+    padding-bottom: -20px;
+    margin-bottom: -20px;
+  }
+}
+
+
+@media (min-width: 768px) {
+  .main #howitworks{
+   
+      margin-top: -300px;
+  }
+}
+
+
+@media (max-width: 768px) {
+  a#btn1.btn {
+      
+    margin-left: 0;
+     
+  }
+}
+
+@media (max-width: 1024px) {
+  a#btn1.btn {
+   display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .logo img {
+   height: 70px;
+  }
+}
+
+@media (max-width: 768px) {
+  #line {
+   display: none;
+  }
+}
+
+@media (max-width: 1024px) {
+  p.animated.zoomIn {
+  font-weight: bold;
+  color: #79CCCD;
+  }
+}
+@media (max-width: 768px) {
+  .main #testimonials {
+      
+    margin-left: 22px;
+      margin-right: 22px;
+     
+  }
+}
+
+
+@media (max-width: 400px) {
+  #getintouch {
+    margin-top: 100px;
+  }
+}
+
+@media (max-width: 768px) {
+  #aboutus article {
+    margin-left: -100px;
+    margin-right: 10px;
+  }
+}
+
+@media (max-width: 768px) and (orientation:landscape) {
+  #aboutus article {
+    margin-left: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  .top_left_cont h2{
+   font-size: 40px;
+  }
+}
+
+@media (max-width: 768px) and (orientation: landscape) {
+  .top_left_cont h2 {
+   padding-top: 300px;
+  }
+}
+
+
+
+@media (max-width: 768px) {
+.top_left_cont h2 {
+   
+   font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    
+   
+    
+
+    }
+}
+
+
+    
+    
+   @media only screen 
+and (min-device-width : 768px) 
+       and (max-device-width : 1024px) {
+           
+           #testimonials article {
+              margin-left: 150px;
+           }
+           
+        
+    } 
+    
+    
+  @media (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
+      
+      .main #howitworks{
+          margin-top: -400px;
+      }
+      }
+    
+     
+    
+    
+
+
+footer h3{
+  text-decoration: none;
+}
+
+ .rotate-link:hover .rotate-icon {
+   -webkit-transform: rotate(360deg);
+ }
+ 
+
+ 
