@@ -24,6 +24,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "PT Sans", sans-serif;
   
   margin: 0;
+  font-weight: 400;
 }
 
 .img-circle {
@@ -45,7 +46,7 @@ h1, h2, h3, h4, h5, h6 {
 
 
 header .navbar {
-  padding: 20px 10px;
+  padding: 20px 30px;
   
    
 }
@@ -59,7 +60,7 @@ header .navbar-default {
 
 header .navbar-default .navbar-nav a {
   color: #555;
-  padding: 5px 8px;
+  padding: 5px 18px;
   
 }
 
@@ -110,7 +111,7 @@ and (max-width: 768px) {
 
 header .inbody {
   
-background-color: rgba(64,64,64,.2);
+background-color: rgba(255,255,255,.99);
 }
 
 header .navbar.inbody {
@@ -313,6 +314,10 @@ and (max-width: 768px) {
     background-color: rgb(69,69,69);
     background: -webkit-linear-gradient(bottom,rgba(25,25,25,.4),rgba(25,25,25,1));
     
+}
+
+#ourapproach {
+   background: #fafafa;
 }
 
  #btn1 {
