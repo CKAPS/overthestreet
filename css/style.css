@@ -239,8 +239,12 @@ header .navbar.inbody .navbar-nav {
 .imgWrap:hover .imgDescription {
   visibility: visible;
   opacity: 1;
+  transition: opacity 0.5s ease-in;
+  transition-duration: 1s;
+  
 }
-   
+
+
 /**  Page -- howitworks **/
 
 .service {
