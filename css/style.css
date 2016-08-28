@@ -301,7 +301,7 @@ and (max-width: 768px) {
 
 @media (min-height: 800px) and (max-height: 1024px) {
    #aboutus {
-  margin-top:-200px;
+  margin-top:-300px;
   }
 }
 
