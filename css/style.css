@@ -298,7 +298,7 @@ and (max-width: 768px) {
   font-size: 25px;
 }
 
-@media (min-width: 1024px) {
+@media (min-height: 1024px) {
    #aboutus {
   margin-top:-400px;
   }
