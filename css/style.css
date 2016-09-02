@@ -406,6 +406,11 @@ and (max-width: 768px) {
   }
 }
 
+@media (max-width: 768px) {
+	h3#heading.wow.zoomIn{
+		padding-top: 340px;
+	}
+}
 
 @media (max-width: 768px) {
   a#btn1.btn {
